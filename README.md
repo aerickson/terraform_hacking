@@ -7,7 +7,7 @@ tf init -backend=false
 tf validate
 ```
 
-The code starts working if datasources.tf:base is commented out.
+The test starts working if the 'terraform_remote_state' in [datasources.tf](terraform/test_module/datasources.tf) is commented out.
 
 ## travis links
 
